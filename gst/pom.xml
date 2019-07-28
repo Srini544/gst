@@ -15,6 +15,14 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
    
+   <plugins>
+     <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.2</version>
+    </plugin>
+</plugins>
+   
    <dependencies>
       <dependency>
          <groupId>junit</groupId>
